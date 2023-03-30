@@ -6,6 +6,8 @@ This is from a CIDD workshop on 20230330 given by Callum Arnold
 
 This ISR model this is based on Ottar's book code from chapter 2. It's a simple SIR model with births and deaths
 
+This uses fractional populations
+
 ```math
 \begin{align}
 \frac{dS}{dt} &= \mu (N - S) -\beta S \frac{I}{N} \\
@@ -20,7 +22,7 @@ This ISR model this is based on Ottar's book code from chapter 2. It's a simple 
 \beta &= 2 \\
 \gamma &= \frac{1}{2} \\\\
 
-N &= 1000 \\
+N &= 1.0 \\
 S_0 &= 999.0 \\
 I_0 &= 1.0 \\
 R_0 &= 0.0
