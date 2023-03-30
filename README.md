@@ -47,6 +47,8 @@ R_0 &= 0.0
 
 ### Built With
 
+- [`{deSolve}`](https://cran.r-project.org/web/packages/deSolve/index.html) for solving differential equations
+
 ### Getting Started
 I've used the `{renv}` package to manage the R environment for this project.
 For more details on how to use `{renv}`, see [this article](https://rstudio.github.io/renv/articles/renv.html), but in brief, it creates a snapshot of the installed packages and their versions.
