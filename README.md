@@ -6,7 +6,7 @@ This is from a CIDD workshop on 20230330 given by Callum Arnold
 
 This ISR model this is based on Ottar's book code from chapter 2. It's a simple SIR model with births and deaths
 
-This uses fractional populations
+This model uses fractional populations
 
 ```math
 \begin{align}
@@ -48,8 +48,13 @@ R_0 &= 0.0
 ### Built With
 
 ### Getting Started
+I've used the `{renv}` package to manage the R environment for this project.
+For more details on how to use `{renv}`, see [this article](https://rstudio.github.io/renv/articles/renv.html), but in brief, it creates a snapshot of the installed packages and their versions.
+
+To get started, you will need to install `{renv}` as usual (i.e., `install.packages("renv")`), and then run `renv::restore()` to install the packages that are used in this project (the record in the ***renv.lock*** file).
 
 ### Usage
+To run the SIR model, you can open the ***src/sir_model.R*** file and run the code as usual.
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
